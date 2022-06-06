@@ -23,7 +23,6 @@ public class Account {
 		accountNumber = num;
 		name = accName;
 		balance = accBalance;
-		id = identity; 
 		phoneNumber = pNumber;
 	}
 
@@ -81,7 +80,7 @@ public class Account {
 	
 	public String showAccountDetails()
 	{
-		return "Account: "+accountNumber+" , "+name+" , $"+balance+" , "+id+" , "+phoneNumber;
+		return "Account: "+accountNumber+" \nName: "+name+" \nBalance: $"+balance+" \nID: "+id+" \nPhone Number: "+phoneNumber;
 	}
 	
 }//end of laptop class

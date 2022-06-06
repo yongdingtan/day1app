@@ -18,6 +18,7 @@ public class BankOperation {
 		{
 			// save account Database
 			arr[count++] = a;
+			a.setId(count);
 			return a;
 		}
 		else

@@ -178,9 +178,6 @@ public class MyMVCApp {
 		System.out.println("Enter the Account Initial Balance ");
 		int balance = sc.nextInt();
 		
-		System.out.println("Enter the id: ");
-		int id = sc.nextInt();
-		
 		System.out.println("Enter the phone number: ");
 		String phoneNumber = stringScanner.nextLine();
 		
@@ -188,7 +185,6 @@ public class MyMVCApp {
 		a.setAccountNumber(accNumber);
 		a.setBalance(balance);
 		a.setName(name);
-		a.setId(id);
 		a.setPhoneNumber(phoneNumber);
 		
 		Account savedObject = bankOps.createAccount(a);
